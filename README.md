@@ -1,7 +1,5 @@
 # Getting started
 
-## Prerequisites
-
 ## Install the required tools.
 
 **Install the J-Link debugging tools**
