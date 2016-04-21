@@ -6,7 +6,6 @@
 
   <default  revision="refs/heads/master"
             remote="github"
-            sync-c="true"
             sync-j="4" />
 
   <project  name="ShoeSensor/nrf_mma8453q"
