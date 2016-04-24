@@ -5,6 +5,7 @@
             revision="refs/heads/master"/>
 
   <default  revision="refs/heads/master"
+            remote="github"
             sync-c="true"
             sync-j="4" />
 
