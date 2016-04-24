@@ -5,39 +5,30 @@
             revision="refs/heads/master"/>
 
   <default  revision="refs/heads/master"
-            remote="github"
+            sync-c="true"
             sync-j="4" />
 
   <project  name="ShoeSensor/nrf_mma8453q"
-            path="apps/nrf_mma8453q"
-            remote="github"
-            revision="staging"/>
+            path="apps/nrf_mma8453q"/>
 
   <project  name="ShoeSensor/nrf_ble"
-            path="apps/nrf_ble"
-            remote="github"/>
+            path="apps/nrf_ble"/>
 
   <project  name="ShoeSensor/nrf_freertos"
-            path="apps/nrf_freertos"
-            remote="github"/>
+            path="apps/nrf_freertos"/>
 
   <project  name="ShoeSensor/nrf_datafilter"
-            path="apps/nrf_datafilter"
-            remote="github"/>
+            path="apps/nrf_datafilter"/>
 
   <project  name="ShoeSensor/nrf_uart"
-            path="apps/nrf_uart"
-            remote="github"/>
+            path="apps/nrf_uart"/>
 
   <project  name="ShoeSensor/android_demo"
-            path="apps/RunningShoeSensor"
-            remote="github"/>
+            path="apps/RunningShoeSensor"/>
 
   <project  name="ShoeSensor/nrf_sdk"
-            path="./"
-            remote="github"/>
+            path="./"/>
 
   <project  name="ShoeSensor/manifest"
-            path="manifest"
-            remote="github"/>
+            path="manifest"/>
 </manifest>
