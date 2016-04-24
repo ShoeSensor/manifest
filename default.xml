@@ -1,35 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote   name="github"
-            fetch="https://github.com"
+
+    <remote name="github"
+            fetch="https://github.com"/>
+
+    <remote name="shoesensor"
+            fetch="https://github.com/ShoeSensor"
             revision="master"/>
 
-  <default  revision="master"
-            remote="github"
-            sync-c="true"
-            sync-j="4" />
+    <default revision="master"
+             remote="github"
+             sync-c="true"
+             sync-j="4" />
 
-  <project  name="ShoeSensor/nrf_mma8453q"
-            path="apps/nrf_mma8453q"/>
+    <project name="nrf_mma8453q"
+             path="apps/nrf_mma8453q"
+             remote="shoesensor"/>
 
-  <project  name="ShoeSensor/nrf_ble"
-            path="apps/nrf_ble"/>
+    <project name="nrf_ble"
+             path="apps/nrf_ble"
+             remote="shoesensor"/>
 
-  <project  name="ShoeSensor/nrf_freertos"
-            path="apps/nrf_freertos"/>
+    <project name="nrf_freertos"
+             path="apps/nrf_freertos"
+             remote="shoesensor"/>
 
-  <project  name="ShoeSensor/nrf_datafilter"
-            path="apps/nrf_datafilter"/>
+    <project name="nrf_datafilter"
+             path="apps/nrf_datafilter"
+             remote="shoesensor"/>
 
-  <project  name="ShoeSensor/nrf_uart"
-            path="apps/nrf_uart"/>
+    <project name="nrf_uart"
+             path="apps/nrf_uart"
+             remote="shoesensor"/>
 
-  <project  name="ShoeSensor/android_demo"
-            path="apps/RunningShoeSensor"/>
+    <project name="android_demo"
+             path="apps/RunningShoeSensor"
+             remote="shoesensor"/>
 
-  <project  name="ShoeSensor/nrf_sdk"
-            path="./"/>
+    <project name="nrf_sdk"
+             path="./"
+             remote="shoesensor"/>
 
-  <project  name="ShoeSensor/manifest"
-            path="manifest"/>
+    <project name="manifest"
+             path="manifest"
+             remote="shoesensor"/>
+
 </manifest>
