@@ -48,7 +48,7 @@ and set it to the root directory of your SDK and you are good to go.
 
 To download the SDK and all the repositories:
 
-` repo init -u https://github.com/ShoeSensor/manifest `
+` repo init -u https://github.com/ShoeSensor/manifest -b sdk11`
 
 ` repo sync -j8`
 

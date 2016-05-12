@@ -6,9 +6,9 @@
 
     <remote name="shoesensor"
             fetch="https://github.com/ShoeSensor"
-            revision="master"/>
+            revision="sdk11"/>
 
-    <default revision="master"
+    <default revision="sdk11"
              remote="github"
              sync-c="true"
              sync-j="4" />
