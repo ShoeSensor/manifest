@@ -52,9 +52,9 @@ To download the SDK and all the repositories:
 
 ` repo sync -j8`
 
-Now checkout all repositories in the master branch
+Now checkout all repositories in the sdk11 branch
 
-`repo forall -c 'git checkout master' `
+`repo forall -c 'git checkout sdk11' `
 
 **Initialize the environment**
 
