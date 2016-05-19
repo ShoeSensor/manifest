@@ -19,7 +19,7 @@ and download the 64-bit deb package for Linux. When downloaded, install with the
 
 **Miscellaneous**
 
-` sudo apt install screen schedtool umake doxygen doxygen-gui doxygen-latex`
+` sudo apt install screen schedtool ubuntu-make doxygen doxygen-gui doxygen-latex`
 
 
 ## Setting up Eclipse
