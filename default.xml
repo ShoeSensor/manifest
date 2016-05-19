@@ -29,6 +29,10 @@
              path="apps/nrf_datafilter"
              remote="shoesensor"/>
 
+    <project name="apps_angle_bench"
+             path="apps/angle_bench"
+             remote="shoesensor"/>
+
     <project name="nrf_uart"
              path="apps/nrf_uart"
              remote="shoesensor"/>
