@@ -13,16 +13,12 @@
              sync-c="true"
              sync-j="4" />
 
-    <project name="nrf_mma8453q"
-             path="apps/nrf_mma8453q"
-             remote="shoesensor"/>
-
     <project name="nrf_ble"
-             path="apps/nrf_ble"
+             path="apps/ble"
              remote="shoesensor"/>
 
     <project name="nrf_freertos"
-             path="apps/nrf_freertos"
+             path="libs/os/freertos"
              remote="shoesensor"/>
 
     <project name="nrf_datafilter"
@@ -34,7 +30,11 @@
              remote="shoesensor"/>
 
     <project name="nrf_uart"
-             path="apps/nrf_uart"
+             path="apps/libs/drv/uart"
+             remote="shoesensor"/>
+
+    <project name="nrf_drv_mpu6050"
+             path="apps/libs/drv/mpu6050"
              remote="shoesensor"/>
 
     <project name="android_demo"
