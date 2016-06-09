@@ -30,11 +30,11 @@
              remote="shoesensor"/>
 
     <project name="nrf_uart"
-             path="apps/libs/drv/uart"
+             path="libs/drv/uart"
              remote="shoesensor"/>
 
     <project name="nrf_drv_mpu6050"
-             path="apps/libs/drv/mpu6050"
+             path="libs/drv/mpu6050"
              remote="shoesensor"/>
 
     <project name="android_demo"
